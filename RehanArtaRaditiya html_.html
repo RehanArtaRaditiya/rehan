@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanzShop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .store-item, .order-form {
+            background: #222;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(255,255,255,0.1);
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        input, select, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HanzShop</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="store.html">Beli Diamond</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Top Up Diamond Free Fire & Mobile Legends</h2>
+        <p>Tempat terbaik untuk membeli diamond dengan harga murah dan proses cepat!</p>
+    </div>
+    
+    <div class="container">
+        <h2>Pilihan Diamond</h2>
+        <div class="store-item">
+            <h3>Free Fire - 100 Diamonds</h3>
+            <p>Harga: Rp 15.000</p>
+        </div>
+        <div class="store-item">
+            <h3>Free Fire - 500 Diamonds</h3>
+            <p>Harga: Rp 75.000</p>
+        </div>
+        <div class="store-item">
+            <h3>Mobile Legends - 100 Diamonds</h3>
+            <p>Harga: Rp 20.000</p>
+        </div>
+        <div class="store-item">
+            <h3>Mobile Legends - 500 Diamonds</h3>
+            <p>Harga: Rp 90.000</p>
+        </div>
+    </div>
+    
+    <div class="container order-form">
+        <h2>Form Pemesanan</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Masukkan ID Game Anda" required><br>
+            <select name="game" required>
+                <option value="freefire">Free Fire</option>
+                <option value="mobilelegends">Mobile Legends</option>
+            </select><br>
+            <select name="diamond" required>
+                <option value="100">100 Diamonds</option>
+                <option value="500">500 Diamonds</option>
+            </select><br>
+            <input type="text" name="payment" placeholder="Metode Pembayaran (OVO, Gopay, Dana)" required><br>
+            <button type="submit">Beli Sekarang</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 HanzShop | Kontak: hanzshop@store.com</p>
+    </footer>
+</body>
+</html>
